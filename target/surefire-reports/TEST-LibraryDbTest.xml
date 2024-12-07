@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LibraryDbTest" time="0.259" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/test-classes:/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/classes:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/anirudhpathaneni/.m2/repository/com/h2database/h2/2.2.220/h2-2.2.220.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/surefire/surefirebooter-20241205163640850_3.jar /Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/surefire 2024-12-05T16-36-40_804-jvmRun1 surefire-20241205163640850_1tmp surefire_0-20241205163640850_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/test-classes:/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/classes:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/anirudhpathaneni/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/anirudhpathaneni/.m2/repository/com/h2database/h2/2.2.220/h2-2.2.220.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anirudhpathaneni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql/target/surefire/surefirebooter-20241205163640850_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="anirudhpathaneni"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/anirudhpathaneni/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1h/60m_v3nd4n50hz9hpkxjctmr0000gn/T/"/>
+    <property name="idea.version" value="2024.3"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/anirudhpathaneni/Desktop/Library-Management-System-Java-Sql"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anirudhpathaneni/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testListOfBooks" classname="LibraryDbTest" time="0.138">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+List of books:
+
+Book ID: 1
+Book Name: Introduction to Algorithms
+Author: Thomas H. Cormen
+Publication Year: 2009
+Available Copies: 5
+
+Book ID: 2
+Book Name: Clean Code
+Author: Robert C. Martin
+Publication Year: 2008
+Available Copies: 3
+
+Book ID: 3
+Book Name: Artificial Intelligence
+Author: Stuart Russell
+Publication Year: 2020
+Available Copies: 2
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSortBooksByIdDescending" classname="LibraryDbTest" time="0.011">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Sort Options:
+1. By ID
+2. By Name
+3. By Author
+4. By Publication Year
+5. By Number of Copies
+Enter your sort choice: Sort in (1) Ascending or (2) Descending order? ]]></system-out>
+  </testcase>
+  <testcase name="testAddBook" classname="LibraryDbTest" time="0.008">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Enter book name : 
+Enter book author : 
+Enter book publication year : 
+Enter Number of book copies : Book has been added successfully!
+
+]]></system-out>
+  </testcase>
+  <testcase name="testListBorrowedBooks" classname="LibraryDbTest" time="0.008">
+    <system-out><![CDATA[Database initialized with tables and data.
+Books borrowed by student with Student Id: 2 are:- 
+
+Book ID : 1
+Book Name: Introduction to Algorithms
+Author : Thomas H. Cormen
+Publication year : 2009
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAuthenticationIncorrectLibrarian" classname="LibraryDbTest" time="0.006">
+    <system-out><![CDATA[Database initialized with tables and data.
+Enter your ID: Enter your password: &amp#27;[H&amp#27;[J
+]]></system-out>
+  </testcase>
+  <testcase name="testNoAvailableBooks" classname="LibraryDbTest" time="0.007">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+List of books:
+
+Sorry, no books are available!
+]]></system-out>
+  </testcase>
+  <testcase name="testListAvailableBooks" classname="LibraryDbTest" time="0.006">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+List of books:
+
+Book ID: 2
+Book Name: Clean Code
+Author: Robert C. Martin
+Publication Year: 2008
+Available Copies: 3
+
+Book ID: 3
+Book Name: Artificial Intelligence
+Author: Stuart Russell
+Publication Year: 2020
+Available Copies: 2
+
+]]></system-out>
+  </testcase>
+  <testcase name="testReturnBook" classname="LibraryDbTest" time="0.006">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Enter book ID : 
+Enter student ID : &amp#27;[H&amp#27;[J
+Book has been returned!!
+
+]]></system-out>
+  </testcase>
+  <testcase name="testFilterBooksByName" classname="LibraryDbTest" time="0.007">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Filter Options:
+1. By Book ID
+2. By Name
+3. By Author
+4. By Publication Year
+5. By Availability
+Enter your filter choice: Enter name to filter by: ]]></system-out>
+  </testcase>
+  <testcase name="testDeleteNonExistingBook" classname="LibraryDbTest" time="0.007">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Enter book ID: &amp#27;[H&amp#27;[J
+Something went wrong!
+Update unsuccessful Rolling back the changes ...
+No book found with ID 999. Please try again.
+
+]]></system-out>
+  </testcase>
+  <testcase name="testIssueBook" classname="LibraryDbTest" time="0.009">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+List of books:
+
+Book ID: 1
+Book Name: Introduction to Algorithms
+Author: Thomas H. Cormen
+Publication Year: 2009
+Available Copies: 5
+
+Book ID: 2
+Book Name: Clean Code
+Author: Robert C. Martin
+Publication Year: 2008
+Available Copies: 3
+
+Book ID: 3
+Book Name: Artificial Intelligence
+Author: Stuart Russell
+Publication Year: 2020
+Available Copies: 2
+
+
+Enter book ID : Enter student id : &amp#27;[H&amp#27;[J
+Book has been issued successfully!!
+
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteBook" classname="LibraryDbTest" time="0.006">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Enter book ID: &amp#27;[H&amp#27;[J
+Book with ID 1 has been successfully deleted!
+
+]]></system-out>
+  </testcase>
+  <testcase name="testBooksBorrowedByStudent" classname="LibraryDbTest" time="0.005">
+    <system-out><![CDATA[Database initialized with tables and data.
+
+Enter the Student ID : &amp#27;[H&amp#27;[J
+Books borrowed by student with Student Id:2 are :
+
+Book ID : 2
+Book Name: Clean Code
+Author : Robert C. Martin
+Publication year : 2008
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAuthenticationCorrectLibrarian" classname="LibraryDbTest" time="0.004">
+    <system-out><![CDATA[Database initialized with tables and data.
+Enter your ID: Enter your password: &amp#27;[H&amp#27;[J
+]]></system-out>
+  </testcase>
+</testsuite>
