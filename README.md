@@ -34,7 +34,18 @@ This project is a console-based Library Management System implemented in Java, u
 
 ---
 
+### Project Structure
+
+- `src/main/java/`: Contains Java source files.
+- `src/test/java/`: Contains JUnit test cases.
+- `sql/`: Contains SQL scripts to create, alter, and populate the database.
+- `mysql-connector-j-8.3.0.jar`: Dependency for database connectivity.
+- `pom.xml`: Maven configuration file for managing dependencies.
+
+
 ## Setup Instructions
+
+### Running JUnit Tests
 
 #### To run all tests from IntelliJ using Maven:
 
@@ -42,8 +53,7 @@ This project is a console-based Library Management System implemented in Java, u
 - In the toolbar, click on **Lifecycle**
 - Click on **Test** or **Install** to run the tests.
 
-
-### Running JUnit Tests
+#### To run all tests from Terminal
 
 The project includes JUnit 5 test cases for validating core functionalities. To run the tests:
 
@@ -53,7 +63,9 @@ The project includes JUnit 5 test cases for validating core functionalities. To 
    ```bash
    mvn test
    ```
-   
+
+### Running the Application
+
 ### Configuration
 
 - Update the database connection details in `librarydb.java` with your MySQL credentials:
@@ -63,15 +75,6 @@ The project includes JUnit 5 test cases for validating core functionalities. To 
    static final String USER = "<your_mysql_username>";
    static final String PASS = "<your_mysql_password>";
     ```
-
-### Project Structure
-
-- `src/main/java/`: Contains Java source files.
-- `src/test/java/`: Contains JUnit test cases.
-- `sql/`: Contains SQL scripts to create, alter, and populate the database.
-- `mysql-connector-j-8.3.0.jar`: Dependency for database connectivity.
-- `pom.xml`: Maven configuration file for managing dependencies.
-
 ### Database Setup
 
 1. Open the MySQL terminal:
@@ -86,8 +89,6 @@ The project includes JUnit 5 test cases for validating core functionalities. To 
     
     SOURCE Library_data.sql;
    ```
-
-### Running the Application
 
 ##### From the Terminal
 
