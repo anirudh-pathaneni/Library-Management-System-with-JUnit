@@ -36,6 +36,24 @@ This project is a console-based Library Management System implemented in Java, u
 
 ## Setup Instructions
 
+#### To run all tests from IntelliJ using Maven:
+
+- Open the **Maven** toolbar (located on the right side of the IntelliJ window).
+- In the toolbar, click on **Lifecycle**
+- Click on **Test** or **Install** to run the tests.
+
+
+### Running JUnit Tests
+
+The project includes JUnit 5 test cases for validating core functionalities. To run the tests:
+
+1. **Ensure that Maven is set up correctly and all dependencies are resolved.**
+2. **From the terminal, run:**
+
+   ```bash
+   mvn test
+   ```
+   
 ### Configuration
 
 - Update the database connection details in `librarydb.java` with your MySQL credentials:
@@ -99,23 +117,6 @@ This project is a console-based Library Management System implemented in Java, u
 4. **Run the `librarydb` file:**
     - Right-click on the file in the Project Explorer.
     - Select **Run ‘librarydb’**.
-
-### Running JUnit Tests
-
-The project includes JUnit 5 test cases for validating core functionalities. To run the tests:
-
-1. **Ensure that Maven is set up correctly and all dependencies are resolved.**
-2. **From the terminal, run:**
-
-   ```bash
-   mvn test
-   ```
-   
-#### To run all tests from IntelliJ using Maven:
-
-- Open the **Maven** toolbar (located on the right side of the IntelliJ window).
-- In the toolbar, click on **Lifecycle** 
-- Click on **Test** or **Install** to run the tests.
 
 ### Dependencies
 
