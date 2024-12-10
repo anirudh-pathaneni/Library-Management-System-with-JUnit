@@ -47,6 +47,8 @@ This project is a console-based Library Management System implemented in Java, u
 
 ### Running JUnit Tests
 
+Note: Doesn't require application to be run. Database is initialised for tests seperately using h2 database.
+
 #### To run all tests from IntelliJ using Maven:
 
 - Open the **Maven** toolbar (located on the right side of the IntelliJ window).
