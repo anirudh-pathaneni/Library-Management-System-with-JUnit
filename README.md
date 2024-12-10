@@ -25,7 +25,7 @@ This project is a console-based Library Management System implemented in Java, u
 
 1. **MySQL** installed and configured on your system.
 2. **Java Development Kit (JDK)**
-3. **Maven** installed and configured.
+3. **IntelliJ** (preferred) or **Maven** installed and configured.
 4. Files included in this project:
     - Java source files in `src/`.
     - SQL scripts in the `sql/` folder.
